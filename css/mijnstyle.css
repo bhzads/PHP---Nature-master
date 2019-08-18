@@ -1,0 +1,171 @@
+/* ---------------------------------------------------
+     SIDEBAR STYLE
+ ----------------------------------------------------- */
+
+ .mapcontainer .btn {
+     position: absolute;
+     top: 35px;
+     left: 35px;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color: transparent;
+     color: white;
+     font-size: 20px;
+     padding: 12px 24px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+     text-align: center;
+ }
+
+ /* ===sidebar Banner buttons===== */
+
+#sidbarbaner {
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#sidbarbaner a {
+    color: white;
+}
+
+#sidbarbaner .btn {
+    background-color: #4CAF50;
+    font-size: 25px;
+    float: right;
+    margin-top: -14px;
+}
+
+
+/* ================= */
+
+ .sidcontaint {
+     height: 60%;
+     margin: 15% 2%;
+     text-align: center;
+ }
+
+ .sidcontaint p {
+     font-size: 80%;
+ }
+
+ .sidcontaint input {
+     border-radius: 24px;
+ }
+
+ .sidcontaint button {
+     border-radius: 24px;
+     width: 25%;
+ }
+
+ .sidcontaint .round {
+     width: 90%;
+     border-radius: 24px;
+     border-style: solid;
+     border-color: white;
+ }
+
+ .sidbarfooter img {
+     width: 150px;
+     height: auto;
+ }
+
+ .sidcontaint form {
+     padding-bottom: 25px;
+ }
+
+tr:hover {
+    background-color: #419641;
+}
+
+ /* ---------------------------------------------------
+     CONTENT STYLE
+ ----------------------------------------------------- */
+
+ #map {
+     height: 100%;
+     width: 100%;
+     margin: 0;
+     padding: 0;
+ }
+
+
+ /* ---------------------------------------------------
+     ************
+ ----------------------------------------------------- */
+
+ body,
+ html {
+     height: 100%;
+     width: 100%;
+     margin: 0;
+     padding: 0;
+ }
+
+ .mapcontainer {
+     height: 100%;
+     width: 100%;
+     margin: 0;
+     padding: 0;
+ }
+
+
+.carousel-inner img{
+  max-width: 100%;
+  height: 300px !important;
+}
+
+a {
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.form-inline h5 {
+    color: #552B1D;
+}
+
+.userpagefield {
+    background-color: #419641;
+    color: black;
+}
+
+.loc {
+    color: #22562f;
+    margin: 0;
+}
+
+#admin {
+    text-align: center;
+}
+
+.admin {
+    display: inline-block;
+    width: 47%;
+    margin-bottom: 15px;
+}
+
+.image {
+    display: inline-block;
+    margin: 40px auto 18px auto;
+    width: 65%;
+}
+
+.btnadmin {
+    margin-top: 15px;
+}
+
+.table-responsive {
+    height: 60%;
+    overflow: auto;
+    margin-bottom: 25px;
+}
